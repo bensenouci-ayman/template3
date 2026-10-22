@@ -62,3 +62,43 @@ a {
         width: 1170px;
     }
 }
+
+header {
+    background-color: white;
+    box-shadow: 0 0 12px #ddd;
+    position: relative;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* later for mega menu */
+    position: relative;
+}
+
+header .logo {
+    color: var(--main-color);
+    font-size: 26px;
+    font-weight: bold;
+    height: 72px;
+    display: grid;
+    align-content: center;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav > ul > li > a {
+    height: 72px;
+    display: grid;
+    align-content: center;
+    padding: 0 30px;
+    color: black;
+    font-size: 18px;
+    /* for fill  */
+    position: relative;
+    transition: var(--main-transition-duration);
+}
